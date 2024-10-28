@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="formstyle.xsl"?>
+
+<formulario>
+    <campos>
+        <campo tipo="texto" id="nombre">Nombre:</campo>
+        <campo tipo="texto" id="apellidos">Apellidos:</campo>
+        <campo tipo="numero" id="anio_nacimiento">Año de Nacimiento:</campo>
+    </campos>
+</formulario>
