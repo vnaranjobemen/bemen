@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="cataleg.xsl"?>
 
-<catalog>
+<cataleg>
   <cd>
     <title>Empire Burlesque</title>
     <artist>Bob Dylan</artist>
@@ -210,4 +210,4 @@
     <price>8.20</price>
     <year>1987</year>
   </cd>
-</catalog>
+</cataleg>

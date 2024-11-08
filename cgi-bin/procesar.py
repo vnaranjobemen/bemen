@@ -4,26 +4,26 @@
 
 import cgi
 
-# Cabecera para el tipo de contenido
+# Cabecera:tipus de contingut
 print("Content-type: text/html\n")
 
-# Crear un formulario para manejar los datos
+# Crear un formulari per gestionar les dades
 form = cgi.FieldStorage()
 
-# Obtener los datos del formulario
-nombre = form.getvalue('nombre', 'No proporcionado')
-apellidos = form.getvalue('apellidos', 'No proporcionado')
-anio_nacimiento = form.getvalue('anio_nacimiento', 'No proporcionado')
+# Obtenir les dades del formulari
+nombre = form.getvalue('nombre', 'No proporcionat')
+apellidos = form.getvalue('apellidos', 'No proporcionat')
+anio_nacimiento = form.getvalue('anio_nacimiento', 'No proporcionat')
 
-# Generar la respuesta HTML
+# Generar la resposta HTML
 print(f"""
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Resultados</title>
+    <title>Resultats</title>
 </head>
 <body>
-    <h1>Datos Recibidos:</h1>
+    <h1>Dades rebudes:</h1>
     <p>Nombre: {nombre}</p>
     <p>Apellidos: {apellidos}</p>
     <p>Año de Nacimiento: {anio_nacimiento}</p>

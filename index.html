@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Enlaces</title>
+    <title>Página d'enllaços'</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,6 +22,7 @@
             text-decoration: none;
             border-radius: 5px;
             text-align: center;
+            max-width: 50%;
         }
         a:hover {
             background-color: #0056b3;
@@ -29,8 +30,12 @@
     </style>
 </head>
 <body>
-    <h1>Página de Enlaces</h1>
-    <a href="cataleg/cataleg.xml" target="_blank">Ver Catálogo (XML)</a>
-    <a href="form/form.xml" target="_blank">Ir al Formulario</a>
+    <h1>Pàgina de proves</h1>
+    <a href="cataleg/cataleg.xml" target="_blank">Veure catàleg (XML)</a>
+    <p> Mostra un document xml amb informació de CDs forematejat amb un full destil per mostrar les dades tipus taula</p>
+    <a href="form/form.xml" target="_blank">Formulari sencill</a>
+    <p> Mostra un document formulari sencill fet a partir d'un document xml amb les dades del formulari</p>
+    <a href="form_xslt/cataleg.xml" target="_blank">Formulari dinàmic</a>
+    <p> Mostra un formulari dinamic a partir d'un document xml amb el mateix format que l'xml del catàleg, però amb un altre estil que permet editar les dades</p>
 </body>
 </html>

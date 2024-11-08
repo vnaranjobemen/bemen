@@ -19,8 +19,7 @@
                     </xsl:for-each>
                     <input type="submit" value="Enviar" />
                 </form>
-                <a href="../index.html" class="volver">Volver a la Página Principal</a>
-            </body>
+                <a href="../index.html">Tornar a la pàgina principal</a>            </body>
 
         </html>
     </xsl:template>
